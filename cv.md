@@ -5,7 +5,7 @@ Alina Charnova
 ### Information about me
 I registered at this course because I want to change the area of activity. I've worked as an English teacher for 5 years. Due to perseverance and working hard I aim to pass the course successfully. The main priority in my life is my family.
 ### Skills
-Actually I don't have enough knowledge in programming. Just a litle bit in HTML, CSS and JS. 
+Actually I don't have enough knowledge in programming. Just a little bit in HTML, CSS and JS. 
 ### Code examples
 ```
 var uniqueInOrder=function(iterable){
