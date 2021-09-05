@@ -9,7 +9,6 @@ Actually I don't have enough knowledge in programming. Just a litle bit in HTML,
 ### Code examples
 ```
 var uniqueInOrder=function(iterable){
-  //your code here - remember iterable can be a string or an array
   const arr = []
   const initialArray = typeof iterable !== 'object'
         ? iterable.split('')
