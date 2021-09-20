@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+    <meta name="viewport" content="width=device-width initial-scale=1"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="intro">
+          <h1>Alina Chernova</h1>
+          <p class="contact-word">Contacts</p>
+          <div class="contacts">
+            <div class="contact">
+              <a href="https://github.com/Alusya" class="link"
+                ><img src="img/icon1.png" alt="github"
+              /></a>
+            </div>
+            <div class="contact">
+              <a href="https://discord.gg/@AlinaCh#6874" class="link"><img src="img/icon2.png" alt="discord" /></a>
+            </div>
+            <div class="contact">
+              <a href="mailto:alinaalina050295@gmail.com" class="link"><img src="img/icon3.png" alt="E-mail" /></a>
+            </div>
+          </div>
+        </div>
+        <img class="me" src="img/me.png" alt="me" />
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section>
+          <h2>Information about me:</h2>
+          <p class="text">
+            I registered at this course because I want to change the area of
+            activity. I’ve worked as an English teacher for 5 years. Due to
+            perseverance and working hard I aim to pass the course successfully.
+            The main priority in my life is my family.
+          </p>
+        </section>
+        <section>
+          <h2>Skills:</h2>
+          <p class="text">
+            Actually I don’t have enough knowledge in programming. Just a little
+            bit in HTML, CSS and JS.
+          </p>
+        </section>
+        <section>
+          <h2>Experience:</h2>
+          <p class="text">I almost have no experience in programming.</p>
+        </section>
+        <section>
+          <h2>Education:</h2>
+          <p class="text">I graduated from Mogilev State University.</p>
+        </section>
+        <section>
+          <h2>Code example:</h2>
+          <pre>
+var uniqueInOrder=function(iterable){
+    const arr = []
+    const initialArray = typeof iterable !== 'object'
+        ? iterable.split('')
+        : iterable
+    for (let i = 0; i &lt; initialArray.length; i++) {
+        if (arr.length === 0 || arr[arr.length-1] !== initialArray[i]) {
+            arr.push(initialArray[i])
+        }
+    }
+    return arr
+}
+        </pre>
+        </section>
+        <section>
+          <h2>English:</h2>
+          <p class="text">
+            I’ve passed an English test recently which identified that I have
+            B2.
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <a href="https://rs.school/js/"><img src="img/rs.png" alt="logo" /></a>
+        <p>2021</p>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
