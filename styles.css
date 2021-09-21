@@ -63,6 +63,7 @@ section h2 {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    padding: 0;
 }
 
 .contact {
@@ -102,6 +103,8 @@ footer .container {
 footer .container p {
     width: max-content;
     margin: 0 auto;
+    max-width: 90%;
+    text-align: center;
 }
 
 /* Responsive */
@@ -151,6 +154,7 @@ footer .container p {
     }
     section {
         width: 90%;
+        margin: 0 auto;
     }
     h1, h2 {
         text-align: center;
