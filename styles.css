@@ -15,14 +15,14 @@ body {
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     padding: 0;
 }
 
 .nav-list li {
     display: block;
     list-style: none;
-    padding: 6px 0;
+    padding: 6px 10px;
     font-size: 24px;
     font-weight: 500;
 }
@@ -33,10 +33,21 @@ body {
     text-decoration: none;
 }
 
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-item, .nav-link {
+    transition: 1s color;
+}
+
 .nav-item:hover .nav-link{
     color: #ffec45dd;
+}
+
+.nav-item:hover {
     background-color: black;
-    transition: 2s;
+    cursor: pointer;
 }
 
 .nav-wrapper {
@@ -79,7 +90,7 @@ header {
 }
 
 .contact:hover {
-    
+    transform: scale(1.2);
 }
 
 header .container {
