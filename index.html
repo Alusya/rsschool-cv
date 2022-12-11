@@ -10,8 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
     <meta name="viewport" content="width=device-width initial-scale=1">
   </head>
   <body>
@@ -85,20 +84,20 @@
           <h2 class="section-title">Code example:</h2>
           <pre>
             <code>
-var uniqueInOrder=function(iterable){
-    const arr = []
-    const initialArray = typeof iterable !== 'object'
-        ? iterable.split('')
-        : iterable
-    for (let i = 0; i &lt; initialArray.length; i++) {
-        if (arr.length === 0 || arr[arr.length-1] !== initialArray[i]) {
-            arr.push(initialArray[i])
-        }
-    }
-    return arr
-}
-          </code>
-        </pre>
+              var uniqueInOrder=function(iterable){
+                  const arr = []
+                  const initialArray = typeof iterable !== 'object'
+                      ? iterable.split('')
+                      : iterable
+                  for (let i = 0; i &lt; initialArray.length; i++) {
+                    if (arr.length === 0 || arr[arr.length-1] !== initialArray[i]) {
+                      arr.push(initialArray[i])
+                    }
+                  }
+                  return arr
+                  }
+            </code>
+          </pre>
         </section>
         <section id="languages">
           <h2 class="section-title">Languages:</h2>
