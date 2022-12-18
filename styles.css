@@ -115,6 +115,15 @@ section h2 {
     margin-bottom: 15px;
 }
 
+#projects a {
+    color:rgb(0, 183, 255);
+    text-decoration: none;
+}
+
+#projects a:hover {
+    color: black;
+}
+
 .contacts {
     display: flex;
     width: 100%;
