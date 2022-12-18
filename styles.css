@@ -42,7 +42,7 @@ body {
 }
 
 .nav-item:hover .nav-link{
-    color: #ffec45dd;
+    color: #45e0ffa3;
 }
 
 .nav-item:hover {
@@ -56,6 +56,10 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: white;
+}
+
+code {
+    font-size: 12px;
 }
 
 h1, h2 {
@@ -109,6 +113,15 @@ section {
 
 section h2 {
     margin-bottom: 15px;
+}
+
+#projects a {
+    color:rgb(0, 183, 255);
+    text-decoration: none;
+}
+
+#projects a:hover {
+    color: black;
 }
 
 .contacts {
