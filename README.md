@@ -52,9 +52,9 @@ RS-SCHOOL CV
 
 
 #### Courses:  
-JS/FE Pre-School Stage 0
+JS/FE Pre-School Stage 0  
 JavaScript/Front-end Stage 1 (in progress)
 *********
 
 
-https://alusya.github.io/rsschool-cv/
+[https://Alusya.github.io/rsschool-cv/cv]
