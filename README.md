@@ -29,17 +29,17 @@ Qualification: Philologist. Teacher of Foreign Languages and Literatures. Interp
 
 
 #### Code example:          
-var uniqueInOrder=function(iterable){
-    const arr = []
-    const initialArray = typeof iterable !== 'object'
-        ? iterable.split('')
-        : iterable
-    for (let i = 0; i < initialArray.length; i++) {
-      if (arr.length === 0 || arr[arr.length-1] !== initialArray[i]) {
-        arr.push(initialArray[i])}
-        }
-        return arr
-        } 
+var uniqueInOrder=function(iterable){  
+    const arr = []  
+    const initialArray = typeof iterable !== 'object'  
+        ? iterable.split('')  
+        : iterable  
+    for (let i = 0; i < initialArray.length; i++) {  
+      if (arr.length === 0 || arr[arr.length-1] !== initialArray[i]) {  
+        arr.push(initialArray[i])}  
+        }  
+        return arr  
+        }   
 *********
 
 
