@@ -21,10 +21,13 @@ Figma
 
 
 #### Experience:  
-I almost have no experience in programming.
-Education:
-Specialty: Romance and Germanic Philology.
-Qualification: Philologist. Teacher of Foreign Languages and Literatures. Interpreter (English)
+I almost have no experience in programming.  
+*********
+
+
+#### Education:
+Specialty: Romance and Germanic Philology.  
+Qualification: Philologist. Teacher of Foreign Languages and Literatures. Interpreter (English)  
 *********
 
 
