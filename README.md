@@ -1,5 +1,12 @@
 rsschool-cv-html
 # rsschool-cv
+cv-html-css
+## cv-html-css
+https://alusya.github.io/rsschool-cv/cv
+## html, css, git task
+https://alusya.github.io/rsschool-cv/
+main
+=======
 https://alusya.github.io/rsschool-cv
 =======
 ### rsschool-cv    
@@ -62,4 +69,5 @@ JavaScript/Front-end Stage 1 (in progress)
 
 
 [https://Alusya.github.io/rsschool-cv/cv]
+gh-pages
 gh-pages
