@@ -1,3 +1,7 @@
+rsschool-cv-html
+# rsschool-cv
+https://alusya.github.io/rsschool-cv
+=======
 ### rsschool-cv    
 ### **Alina Chernova**    
 *********
@@ -58,3 +62,4 @@ JavaScript/Front-end Stage 1 (in progress)
 
 
 [https://Alusya.github.io/rsschool-cv/cv]
+gh-pages
